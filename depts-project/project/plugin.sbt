@@ -50,7 +50,7 @@ VarContext.changePluginVar := "sbt-jmh"
 addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.8")
 
 VarContext.changePluginVar := "sbt-native-packager"
-addSbtPlugin("com.github.sbt" % "sbt-native-packager" % "1.12.0")
+addSbtPlugin("com.github.sbt" % "sbt-native-packager" % "1.13.0")
 
 VarContext.changePluginVar := "sbt-less"
 addSbtPlugin("com.github.sbt" % "sbt-less" % "2.1.0-M2")
@@ -68,4 +68,4 @@ VarContext.changePluginVar := "sbt-java-formatter"
 addSbtPlugin("com.github.sbt" % "sbt-java-formatter" % "0.14.0")
 
 VarContext.changePluginVar := "sbt-uni-crossproject"
-addSbtPlugin("org.wvlet.uni"    % "sbt-uni-crossproject" % "2026.1.23")
+addSbtPlugin("org.wvlet.uni" % "sbt-uni-crossproject" % "2026.1.23")
