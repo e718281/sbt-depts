@@ -4,8 +4,8 @@ ThisBuild / organizationHomepage := Some(uri("https://github.com/scala-workers")
 
 ThisBuild / scmInfo := Some(
   ScmInfo(
-    uri("https://github.com/djx314/sbt-depts"),
-    "scm:git@github.com:djx314/sbt-depts.git"
+    uri("https://github.com/e718281/sbt-depts"),
+    "scm:git@github.com:e718281/sbt-depts.git"
   )
 )
 
@@ -13,16 +13,16 @@ val dev1 = Developer(
   id = "djx314",
   name = "djx314",
   email = "djx314@sina.cn",
-  url = uri("https://github.com/djx314")
+  url = uri("https://github.com/e718281")
 )
 
 ThisBuild / developers := List(dev1)
 
 ThisBuild / description := "Scala depts for djx314's repo."
 
-ThisBuild / licenses := List(License("MIT License", uri("https://github.com/djx314/sbt-depts/blob/main/LICENSE")))
+ThisBuild / licenses := List(License("MIT License", uri("https://github.com/e718281/sbt-depts/blob/main/LICENSE")))
 
-ThisBuild / homepage := Some(uri("https://github.com/djx314/sbt-depts"))
+ThisBuild / homepage := Some(uri("https://github.com/e718281/sbt-depts"))
 
 ThisBuild / pomIncludeRepository := { _ => false }
 
