@@ -8,7 +8,7 @@ VarContext.changePluginVar := "sbt-twirl"
 addSbtPlugin("org.playframework.twirl" % "sbt-twirl" % "2.1.0-M9")
 
 VarContext.changePluginVar := "sbt-pgp"
-addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.3.2")
+addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.4.0")
 
 VarContext.changePluginVar := "sbt-scalajs-crossproject"
 addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.4.0")
@@ -17,19 +17,19 @@ VarContext.changePluginVar := "sbt-scala-native-crossproject"
 addSbtPlugin("org.portable-scala" % "sbt-scala-native-crossproject" % "1.4.0")
 
 VarContext.changePluginVar := "sbt-git"
-addSbtPlugin("com.github.sbt" % "sbt-git" % "2.2.0")
+addSbtPlugin("com.github.sbt" % "sbt-git" % "3.0.0")
 
 VarContext.changePluginVar := "sbt-ide-settings"
 addSbtPlugin("org.jetbrains.scala" % "sbt-ide-settings" % "1.1.4")
 
 VarContext.changePluginVar := "sbt-scalajs"
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.22.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.23.0")
 
 VarContext.changePluginVar := "sbt-crossproject"
 addSbtPlugin("org.portable-scala" % "sbt-crossproject" % "1.4.0")
 
 VarContext.changePluginVar := "flyway-sbt"
-addSbtPlugin("com.github.sbt" % "flyway-sbt" % "12.0.0")
+addSbtPlugin("com.github.sbt" % "flyway-sbt" % "13.0.0")
 
 VarContext.changePluginVar := "sbt-js-engine"
 addSbtPlugin("com.github.sbt" % "sbt-js-engine" % "1.4.0-M4")
@@ -44,10 +44,10 @@ VarContext.changePluginVar := "sbt-github-actions"
 addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.2")
 
 VarContext.changePluginVar := "sbt-jacoco"
-addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.7.0")
+addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.8.0")
 
 VarContext.changePluginVar := "sbt-jmh"
-addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.8")
+addSbtPlugin("com.github.sbt" % "sbt-jmh" % "0.4.9")
 
 VarContext.changePluginVar := "sbt-native-packager"
 addSbtPlugin("com.github.sbt" % "sbt-native-packager" % "1.13.0")
@@ -68,4 +68,4 @@ VarContext.changePluginVar := "sbt-java-formatter"
 addSbtPlugin("com.github.sbt" % "sbt-java-formatter" % "0.14.0")
 
 VarContext.changePluginVar := "sbt-uni-crossproject"
-addSbtPlugin("org.wvlet.uni" % "sbt-uni-crossproject" % "2026.1.35")
+addSbtPlugin("org.wvlet.uni" % "sbt-uni-crossproject" % "2026.1.41")
