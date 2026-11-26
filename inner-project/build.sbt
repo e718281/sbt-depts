@@ -59,7 +59,5 @@ updateMVersion := {
   java.nio.file.Files.writeString(srcRoot2.toPath, versionStr, StandardCharsets.UTF_8)
 }
 
-addCommandAlias("aa", "; updateMVersion ; CodegenAction;")
-
-addCommandAlias("bb", "; clean; depts-output/publishSigned; sonaBundle;")
-addCommandAlias("bbLocal", "; depts-output/publishLocal;")
+addCommandAlias("bb", "; updateMVersion ; codegenAction; clean; depts-output/publishSigned; sonaBundle;")
+addCommandAlias("bbLocal", "; updateMVersion ; codegenAction; clean; depts-output/publishLocal;")

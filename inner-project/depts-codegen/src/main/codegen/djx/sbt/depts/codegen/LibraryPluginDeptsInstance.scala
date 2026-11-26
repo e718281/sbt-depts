@@ -17,7 +17,7 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "sbt-pgp"
 
-  addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.3.2")
+  addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.4.0")
 
   VarContext.changePluginVar := "sbt-scalajs-crossproject"
 
@@ -29,7 +29,7 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "sbt-git"
 
-  addSbtPlugin("com.github.sbt" % "sbt-git" % "2.1.0")
+  addSbtPlugin("com.github.sbt" % "sbt-git" % "3.0.0")
 
   VarContext.changePluginVar := "sbt-ide-settings"
 
@@ -37,7 +37,7 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "sbt-scalajs"
 
-  addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.22.0")
+  addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.23.0")
 
   VarContext.changePluginVar := "sbt-crossproject"
 
@@ -45,7 +45,7 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "flyway-sbt"
 
-  addSbtPlugin("com.github.sbt" % "flyway-sbt" % "12.0.0")
+  addSbtPlugin("com.github.sbt" % "flyway-sbt" % "13.0.0")
 
   VarContext.changePluginVar := "sbt-js-engine"
 
@@ -61,19 +61,19 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "sbt-github-actions"
 
-  addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.0")
+  addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.2")
 
   VarContext.changePluginVar := "sbt-jacoco"
 
-  addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.6.0")
+  addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.8.0")
 
   VarContext.changePluginVar := "sbt-jmh"
 
-  addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.8")
+  addSbtPlugin("com.github.sbt" % "sbt-jmh" % "0.4.9")
 
   VarContext.changePluginVar := "sbt-native-packager"
 
-  addSbtPlugin("com.github.sbt" % "sbt-native-packager" % "1.11.7")
+  addSbtPlugin("com.github.sbt" % "sbt-native-packager" % "1.13.0")
 
   VarContext.changePluginVar := "sbt-less"
 
@@ -93,10 +93,10 @@ object LibraryPluginDeptsInstance extends _root_.djx.sbt.depts.abs.PluginDepts {
 
   VarContext.changePluginVar := "sbt-java-formatter"
 
-  addSbtPlugin("com.github.sbt" % "sbt-java-formatter" % "0.13.1")
+  addSbtPlugin("com.github.sbt" % "sbt-java-formatter" % "0.14.0")
 
   VarContext.changePluginVar := "sbt-uni-crossproject"
 
-  addSbtPlugin("org.wvlet.uni" % "sbt-uni-crossproject" % "2026.1.23")
+  addSbtPlugin("org.wvlet.uni" % "sbt-uni-crossproject" % "2026.1.41")
 
 }

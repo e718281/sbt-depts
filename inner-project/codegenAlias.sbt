@@ -58,4 +58,4 @@ val commadList = Seq(
   s"depts-codegen/runMain ${parameter4.mkString(" ", " ", " ")}"
 )
 
-addCommandAlias("CodegenAction", commadList.mkString(";", ";", ";"))
+addCommandAlias("codegenAction", commadList.mkString(";", ";", ";"))

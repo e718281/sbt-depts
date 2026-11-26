@@ -28,6 +28,8 @@ object Djx314DeptsPlugin extends AutoPlugin {
     private val scalaVersionSetting2: Setting[Seq[sbt.ModuleID]] = libraryDependencies ++= libScalax.`kind-projector`.value
 
     val useKindProjector: Seq[Setting[?]] = List(scalaVersionSetting1, scalaVersionSetting2)
+
+    val djxSbtVersion: SettingKey[String] = settingKey[String]("djx sbt version.")
   }
 
   private class Settings(override val buildKeys: BuildKeys) extends Djx314DeptsImpl {
@@ -40,7 +42,8 @@ object Djx314DeptsPlugin extends AutoPlugin {
       djx.sbt.depts.plugins.AddLibUtils.addOneDept(SettingsSelf.libraryList(indexU), d.dept)
     }
 
-    def settingsForDept: Seq[Setting[?]] = SettingsSelf.settingProvide
+    val setting1: Setting[String]        = autoImport.djxSbtVersion := codegen.SbtVersionInfo.version
+    def settingsForDept: Seq[Setting[?]] = setting1 +: SettingsSelf.settingProvide
 
   }
 
