@@ -12,7 +12,7 @@
 /inner-project/.vscode/
 /project/sdap.sbt
 /inner-project/java_with_opts.bat
-/inner-project/sbtw-sbt-launch-bundle/
+/inner-project/sbt-launch-2.0.5.jar
 /inner-project/sbtw.bat
 /inner-project/sbt.bat
 /sbt.bat
