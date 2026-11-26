@@ -82,7 +82,7 @@ VarContext.changeDeptVar := "simple-induction"
 libraryDependencies += "net.scalax.simple" %% "simple-induction" % "0.0.1-M6"
 
 VarContext.changeDeptVar := "sbt-librarymanagement-core"
-libraryDependencies += "org.scala-sbt" %% "librarymanagement-core" % "1.12.0"
+libraryDependencies += "org.scala-sbt" %% "librarymanagement-core" % "1.12.3"
 
 VarContext.changeDeptVar := "cats-effect-cps"
 libraryDependencies += "org.typelevel" %% "cats-effect-cps" % "0.5.0"
