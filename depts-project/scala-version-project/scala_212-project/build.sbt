@@ -172,13 +172,13 @@ VarContext.changeDeptVar := "scala-compiler"
 libraryDependencies += "org.scala-lang" % "scala-compiler" % "2.12.21"
 
 VarContext.changeDeptVar := "sbt-main"
-libraryDependencies += "org.scala-sbt" %% "main" % "1.12.14"
+libraryDependencies += "org.scala-sbt" %% "main" % "1.12.15"
 
 VarContext.changeDeptVar := "os-lib"
 libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.11.10"
 
 VarContext.changeDeptVar := "sbt-scripted-plugin"
-libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % "1.12.14"
+libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % "1.12.15"
 
 VarContext.changeDeptVar := "magnolia1.scala2"
 libraryDependencies += "com.softwaremill.magnolia1_2" %% "magnolia" % "1.1.14"
